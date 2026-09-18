@@ -147,3 +147,14 @@ Every name went through every gauntlet item; every ruling cites its items and
 carries a failure scenario a stranger could reconstruct; the reconciliation
 section contains at least one finding the author's own assessment did not;
 and nowhere in the document does a name appear that was not in the input.
+
+---
+
+## In any repository
+
+**Consult this repository's `AGENTS.md` or `CLAUDE.md`** for where naming briefs,
+candidate documents and review reports belong, and for any claims, brand or
+positioning rules the project has recorded — those bind names as much as they bind
+copy. Where the repository keeps a record of naming decisions already taken, read it:
+a ruling that reopens a settled call must say so explicitly rather than presenting
+itself as a finding.

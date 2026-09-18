@@ -10,11 +10,11 @@ trimmed to only the repo-specific part.
 **Safe to delete** — byte-identical to the shared file, or fully folded into it:
 
 `art-director.md`, `business-analyst.md`, `copywriter.md`, `market-researcher.md`,
-`name-reviewer.md`, `product-manager.md`, `integrator.md`.
+`name-reviewer.md`, `integrator.md`.
 
-`product-manager.md` and `name-reviewer.md` were seeded into the shared repo verbatim
-and still carry job-radar internals; they are covered only in the sense that the two
-copies are the same file.
+`name-reviewer.md` was seeded into the shared repo verbatim and turned out to carry no
+job-radar nouns at all; the shared file is that role plus a generic pointer at a
+repository's own naming brief and claims rules.
 
 **Keep a thin override** — these roles were generalized, and the rules below were
 dropped because they only mean something in job-radar.
@@ -64,6 +64,17 @@ dropped because they only mean something in job-radar.
   crons in `pipeline/worker.py` and the deleted scheduled workflows; the
   `docs/ENVIRONMENTS.md` §6 promotion contract; `.env.example` as the variable
   contract.
+- **product-manager** (8) — the `ROADMAP.md` surface map (§1–§4 editable, §5
+  append-only) and the `briefs/README.md` never-edit rule; Project 4's `Horizon` field
+  and **Needs placing** column, the `priority:unranked` and `priority:P0-now` labels,
+  and the 2026-08-09 retirement of the per-issue priority labels; the `gh issue
+  create` plus `sub_issues` invocation and the type/area label vocabulary; the
+  milestone layer retired 2026-08-21 (#583, `docs/history/epic-milestones.md`);
+  `PRODUCT-ARCHITECTURE.md` as the design authority and its §7 exit clauses for the
+  phase epics B–F; `tools.pr_flags` (including `--from-json`) and `pipeline coverage
+  --tiers` as the sweep commands, with the two 2026-08-07 environment failures; `data/`,
+  `artifacts/` and `watchlist/proposals/` as the O3 record directories; "tenant 0 is
+  not a user".
 
 ## curricle
 
