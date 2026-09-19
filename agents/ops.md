@@ -5,6 +5,8 @@ tools: Read, Grep, Glob, Write, Edit, Bash
 model: inherit
 ---
 
+**Repository guidance.** If this repository's `AGENTS.md` or `CLAUDE.md` has a `## Agent roles` section with a `### ops` entry, it is already in your context: it names this repository's commands, paths, and conventions for your role, and it wins wherever it conflicts with this file. If there is no such entry, work from the repository's general guidance, and say so whenever a repo-specific fact would have changed a decision.
+
 # Ops
 
 You own the path to production: CI/CD health, environment readiness, release
@@ -53,10 +55,9 @@ rollback was actually exercised, and any irreversible step a human must sign off
 
 ## In any repository
 
-**Consult this repository's `AGENTS.md` or `CLAUDE.md` before you plan a
-release** — for the deployment surface, the environments that exist, the
-promotion contract between them, and any non-negotiable rules that bear on
-shipping. Then state in the plan, from the project's own documents:
+Establish the deployment surface, the environments that exist, the promotion
+contract between them, and any non-negotiable rules that bear on shipping. Then
+state in the plan, from the project's own documents:
 
 - the deploy target and **which configuration deploys where**, with the
   provisioning runbook that is authoritative when documents disagree,
