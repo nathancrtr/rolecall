@@ -1,0 +1,12 @@
+{
+  "name": "rolecall",
+  "owner": { "name": "Nathan Carter", "url": "https://github.com/nathancrtr" },
+  "plugins": [
+    {
+      "name": "rolecall",
+      "source": "./",
+      "description": "Generic Claude Code agent roles, adapted per repository through an AGENTS.md section.",
+      "version": "0.1.0"
+    }
+  ]
+}
