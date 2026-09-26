@@ -6,7 +6,7 @@
       "name": "rolecall",
       "source": "./",
       "description": "Generic Claude Code agent roles, adapted per repository through an AGENTS.md section.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }

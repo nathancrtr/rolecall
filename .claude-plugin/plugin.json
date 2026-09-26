@@ -1,7 +1,7 @@
 {
   "name": "rolecall",
   "description": "A cast of generic Claude Code agent roles — SDLC (analyst, architect, implementer, reviewer, verifier, historian, integrator, ops), product and design (product-manager, designer, art-director, ux-researcher, copywriter, business-analyst, market-researcher, name-reviewer), and publishing/ops — each adapted to a repository through a documented `## Agent roles` section in its AGENTS.md.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": { "name": "Nathan Carter", "url": "https://github.com/nathancrtr" },
   "homepage": "https://github.com/nathancrtr/rolecall",
   "repository": "https://github.com/nathancrtr/rolecall",

@@ -39,6 +39,8 @@ builds is not the one who judges.
 - **copywriter** — writes the words a user encounters, with rationale and alternatives
 - **content-author** — drafts one public piece, every claim registered to its evidence
 - **prose-editor** — copy pass that removes the tics of machine-written prose
+- **audience-reader** — reads a document as one written-down reader and reports every term they
+  would stall on, with the audience description's gaps as questions
 - **community-steward** — triages a public tracker; drafts replies, never posts them
 - **market-intel** — standing competitor watch, reported as deltas with sources
 - **metrics-analyst** — one-page recurring ops brief: what needs attention, what needs a call
