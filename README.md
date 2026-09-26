@@ -43,6 +43,11 @@ builds is not the one who judges.
 - **market-intel** — standing competitor watch, reported as deltas with sources
 - **metrics-analyst** — one-page recurring ops brief: what needs attention, what needs a call
 
+**Teaching**
+
+- **learner-reader** — reads a chapter as one learner, from their profile, and reports every term
+  they would stall on
+
 **Trip research** — the same evidence discipline pointed at something that is not code.
 
 - **trip-scout** — researches candidates and returns entries carrying a source and a date
